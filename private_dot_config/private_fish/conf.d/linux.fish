@@ -9,4 +9,7 @@ set -x PATH $GOPATH/bin $PATH
 # pyenv
 pyenv init - | source
 
+# aqua
+set -x PATH (aqua root-dir)/bin $PATH
+
 end
