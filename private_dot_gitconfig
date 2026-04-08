@@ -13,7 +13,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-
 [alias]
 	ch = checkout
 	co = commit
@@ -23,3 +22,5 @@
 	df = diff
 	ph = push
 	pl = pull
+[diff "sopsdiffer"]
+	textconv = sops -d
